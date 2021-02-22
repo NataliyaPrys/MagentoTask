@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/menu.js"></script>
+	<title>Magento</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__ourstores">
+				<div class="header__deliver">We deliver Worldwide</div>
+				<div class="header__stores">
+					<a href=""><img src="./images/shape.png" alt="our stores">Our stores</a>
+				</div>
+			</div>
+			<div class="header__body">
+				<div class="header__aurora">
+					<div class="header__designation designation">Aurora</div>
+					<div class="header__menu">
+						<div class="header__search">
+							<form action="#" method="POST">
+								<input type="search" placeholder="What are you looking for?" tabindex="1" name="q">
+								<button class="header__submit" type="submit"></button>
+							</form>
+						</div>
+						<!--<div class="header__burger">
+							<span></span>
+						</div>-->
+						<div class="header__burger" onclick="openNav()">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+						<div class="header__nav" id="myNav">
+							<div class="header__mobile">
+								<div href="javascript:void(0)" class="header__close" onclick="closeNav()"></div>
+								<div class="header__heading">Aurora</div>
+							</div>
+							<ul class="menu">
+								<li><a href="#" class="menu__link">WHAT'S NEW</a></li>
+								<li><a href="#" class="menu__link">WOMEN</a></li>
+								<li><a href="#" class="menu__link">ACCESSORIES</a></li>
+								<li><a href="#" class="menu__link">KIDS</a></li>
+								<li><a href="#" class="menu__link">BEAUTY</a></li>
+								<li><a href="#" class="menu__link">OUTLET</a></li>
+								<li><a href="#" class="menu__link">STORIES</a></li>
+							</ul>
+							<div class="header__footer">
+								<div class="header__footer1"><a href="#">Sign in |</a></div>
+								<div class="header__footer2"><a href="#">Register</a></div>
+							</div>
+						</div>
+
+					</div>
+					<div class="header__register">
+						<div class="header__signinregister">
+							<div class="header__signerin"> <a href="#">Sign in |</a></div>
+							<div class="header__reg"> <a href="#">Register</a></div>
+						</div>
+						<div class="header__patch">
+							<a href="#"><img src="./images/path.png" alt="patch"></a>
+						</div>
+					</div>
+				</div>
+				<div class="header__title title">
+					Hello! Welcome to Aurora
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="register">
+		<div class="register__body">
+			<div class="register__text">New arrivals. Exclusive previews. First access to sales. Sign up to stay in
+				the
+				know.
+			</div>
+			<div class="register__form">
+				<form action="#" method="GET">
+					<input class="email__add" type="email" placeholder="Your email address" tabindex="2" name="email">
+					<button class="email__button" type="submit">REGISTER</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="footer__body">
+				<div class="footer__map">
+					<div class="footer__column">
+						<div class="item-footer">
+							<div class="item-footer__title">About Us</div>
+							<div class="item-footer__link">
+								<a href="#">Who we are</a>
+								<a href="#">Our stores</a>
+								<a href="#">Customer Reviews</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="item-footer">
+							<div class="item-footer__title">Categories</div>
+							<div class="item-footer__link">
+								<a href="#">Women fashion</a>
+								<a href="#">Accessories</a>
+								<a href="#">Kids</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="item-footer">
+							<div class="item-footer__title">Help</div>
+							<div class="item-footer__link">
+								<a href="#">Customer service</a>
+								<a href="#">Size guide</a>
+								<a href="#">Contact us</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="item-footer">
+							<div class="item-footer__title">Payments & Delivery</div>
+							<div class="item-footer__link">
+								<a href="#">Purchase terms</a>
+								<a href="#">Guarantee</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__column">
+						<div class="item-footer">
+							<div class="item-footer__title title-social">Social</div>
+							<div class="item-footer__social social__icon">
+								<div class="item-footer__icon icon-hover">
+									<a href="#" title="instagram"><img src="./images/insta.png" alt=""></a>
+								</div>
+								<div class="item-footer__icon icon-hover">
+									<a href="#" title="twitter"><img src="./images/twitter.png" alt=""></a>
+								</div>
+								<div class="item-footer__icon icon-hover">
+									<a href="#" title="snapchat"><img src="./images/snapchat.png" alt=""></a>
+								</div>
+								<div class="item-footer__icon icon-hover">
+									<a href="#" title="facebook"><img src="./images/facebook.png" alt=""></a>
+								</div>
+								<div class="item-footer__icon icon-hover">
+									<a href="#" title="youtube"><img src="./images/youtube.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__accordion">
+					<button class="accordion">About Us</button>
+					<div class="accordion__link">
+						<a href="#">Who we are</a>
+						<a href="#">Our stores</a>
+						<a href="#">Customer Reviews</a>
+					</div>
+					<button class="accordion">Categories</button>
+					<div class="accordion__link">
+						<a href="#">Women fashion</a>
+						<a href="#">Accessories</a>
+						<a href="#">Kids</a>
+					</div>
+					<button class="accordion">Help</button>
+					<div class="accordion__link">
+						<a href="#">Customer service</a>
+						<a href="#">Size guide</a>
+						<a href="#">Contact us</a>
+					</div>
+					<button class="accordion">Payments & Delivery</button>
+					<div class="accordion__link">
+						<a href="#">Purchase terms</a>
+						<a href="#">Guarantee</a>
+					</div>
+					<div class="social__icon">
+						<div class="item-footer__icon icon-hover">
+							<a href="#" title="instagram"><img src="./images/insta.png" alt=""></a>
+						</div>
+						<div class="item-footer__icon icon-hover">
+							<a href="#" title="twitter"><img src="./images/twitter.png" alt=""></a>
+						</div>
+						<div class="item-footer__icon icon-hover">
+							<a href="#" title="snapchat"><img src="./images/snapchat.png" alt=""></a>
+						</div>
+						<div class="item-footer__icon icon-hover">
+							<a href="#" title="facebook"><img src="./images/facebook.png" alt=""></a>
+						</div>
+						<div class="item-footer__icon icon-hover">
+							<a href="#" title="youtube"><img src="./images/youtube.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright">© Copyright, Aurora 2020. All Rights reserved.</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/menu.js"></script>
+</body>
+
+</html>

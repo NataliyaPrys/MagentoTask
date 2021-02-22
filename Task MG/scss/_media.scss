@@ -1,0 +1,368 @@
+@media screen and (max-width: 1220px) {
+	.header {
+		&__stores {
+			flex-basis: 8%;
+		}
+		&__body {
+			max-width: 100%;
+			height: 525px;
+		}
+	}
+}
+@media screen and (max-width: 1000px) {
+	.header {
+		&__stores {
+			flex-basis: 9%;
+		}
+		&__body {
+			max-width: 100%;
+			height: 525px;
+			background: url("../images/aurora1.png");
+			background-position: center 3px;
+			background-size: cover;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.header {
+		width: 100%;
+
+		&__container {
+			width: 100%;
+		}
+
+		&__ourstores {
+			display: none;
+		}
+
+		&__deliver {
+		}
+
+		&__stores {
+		}
+
+		&__body {
+			max-width: 100%;
+			height: 480px;
+			background: url("../images/aurora1.png") center center cover no-repeat fixed;
+		}
+
+		&__aurora {
+			height: 72px;
+		}
+
+		&__designation {
+			display: none;
+		}
+
+		&__menu {
+			a {
+				color: black;
+			}
+		}
+
+		&__search {
+			display: none;
+		}
+
+		&__submit {
+		}
+
+		&__burger {
+			display: inline-block;
+			cursor: pointer;
+			font-size: 30px;
+			cursor: pointer;
+			div {
+				width: 25px;
+				height: 3px;
+				background-color: white;
+				margin: 6px 0 0 6px;
+			}
+		}
+
+		&__nav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: -26px;
+			left: 0;
+			background-color: rgba(255, 255, 255, 1);
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		}
+
+		&__mobile {
+			display: block;
+		}
+
+		&__close {
+			position: absolute;
+			left: 10px;
+			top: 32px;
+			width: 32px;
+			height: 32px;
+			&:before {
+				position: absolute;
+				left: 15px;
+				content: " ";
+				display: block;
+				height: 20px;
+				width: 2px;
+				background-color: rgb(8, 8, 8);
+				transform: rotate(45deg);
+			}
+			&:after {
+				position: absolute;
+				left: 15px;
+				content: " ";
+				height: 20px;
+				width: 2px;
+				background-color: rgb(8, 8, 8);
+				transform: rotate(-45deg);
+			}
+		}
+
+		&__heading {
+			font-family: "Poppins";
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 50px;
+			position: absolute;
+			top: 10px;
+			left: 150px;
+		}
+
+		&__footer {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 48px;
+			background: #f7f7f7;
+			margin-top: 33px;
+		}
+
+		&__footer1,
+		&__footer2 {
+			font-family: Poppins;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 10px;
+			line-height: 15px;
+			letter-spacing: 1px;
+			color: rgb(8, 8, 8);
+		}
+
+		&__closebtn {
+		}
+
+		&__register {
+			display: none;
+		}
+
+		&__signinregister {
+		}
+
+		&__signerin {
+		}
+
+		&__reg {
+		}
+
+		&__patch {
+		}
+
+		&__title {
+		}
+	}
+	.designation {
+	}
+	.closebtn {
+	}
+	.close {
+	}
+
+	.menu {
+		font-family: "Poppins";
+		font-weight: 600;
+		font-size: 11px;
+		line-height: 16.5px;
+		letter-spacing: 1.2px;
+		display: block;
+		a {
+			display: block;
+			color: #000000;
+			padding: 15px 0 15px 15px;
+			border-bottom: 2px solid #f7f7f7;
+			&::after {
+				content: "\276F";
+				color: #777;
+				font-weight: bold;
+				float: right;
+				margin-left: 5px;
+			}
+			&:hover {
+				background-color: #f8f6f6;
+			}
+		}
+		&__link {
+		}
+	}
+	.title {
+		display: none;
+	}
+	.register {
+		&__body {
+		}
+
+		&__text {
+			padding: 0 5px 0 5px;
+		}
+
+		&__form {
+			input {
+				width: 224px;
+				height: 32px;
+				border: 1px solid #e1e0e1;
+				background-color: rgba(247, 247, 247, 1);
+				box-sizing: border-box;
+				border-radius: 3px;
+				font-family: "Poppins";
+				font-weight: 400;
+				font-size: 11px;
+				line-height: 16px;
+				letter-spacing: 0.8px;
+				padding-left: 15px;
+				margin: 0 5px 0 5px;
+			}
+			button {
+				width: 96px;
+				height: 32px;
+				background: #000000;
+				border-radius: 3px;
+				color: #ffffff;
+				&::placeholder {
+					font-family: Poppins;
+					font-weight: 600;
+					font-size: 10px;
+					line-height: 20px;
+					letter-spacing: 1px;
+				}
+			}
+		}
+	}
+	.email {
+		&__add {
+		}
+
+		&__button {
+		}
+	}
+	.footer {
+		width: 100%;
+		height: 100%;
+		&__body {
+		}
+
+		&__map {
+			display: none;
+		}
+
+		&__column {
+		}
+
+		&__accordion {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			width: 90%;
+		}
+
+		&__copyright {
+		}
+	}
+
+	.title-social {
+		display: none;
+	}
+
+	.social {
+		&__icon {
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+			margin: 10px 0;
+		}
+	}
+
+	.icon-hover {
+		a {
+			padding-right: 16px;
+		}
+	}
+
+	.accordion {
+		background-color: rgba(247, 247, 247, 1);
+		color: #444;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: none;
+		text-align: left;
+		outline: none;
+		font-size: 15px;
+		transition: 0.4s;
+		font-family: "Cormorant Garamond";
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		letter-spacing: 1.16364px;
+
+		&:hover {
+			background-color: #ccc;
+		}
+		&__link {
+			display: flex;
+			flex-direction: column;
+			align-items: self-end;
+			width: 100%;
+			padding: 0 18px;
+			background-color: rgba(247, 247, 247, 1);
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+			a {
+				font-family: Poppins;
+				font-size: 12px;
+				line-height: 19px;
+				letter-spacing: 0.1px;
+				color: black;
+				padding: 5px 0 5px 0;
+			}
+		}
+		&::after {
+			content: "\276F";
+			color: #777;
+			font-weight: bold;
+			float: right;
+			margin-left: 5px;
+		}
+	}
+
+	.active {
+		background-color: #ccc;
+		&::after {
+			content: "\276F";
+			transform: rotate(90deg);
+		}
+	}
+
+	.shadow {
+		box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.3);
+	}
+}
